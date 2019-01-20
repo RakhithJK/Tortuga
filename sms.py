@@ -47,7 +47,7 @@ def send(server, email_login,to_number,MESSAGE):
             server.sendmail(email_login, to_number, MESSAGE)
             print (color.GREEN+'[+]'+color.CWHITE+' Message has been sent')
         except KeyboardInterrupt:
-            print '\n=================================='
+            print '\n==================================\n'
             print (color.RED + '[!] '+color.CWHITE+' Exiting')
             exit()
 
