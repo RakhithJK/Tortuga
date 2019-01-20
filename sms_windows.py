@@ -40,7 +40,7 @@ def INFO(MESSAGE, CARRIER_MESSAGE, NUMBER,email_login,email_password):
     server = smtplib.SMTP( "smtp.gmail.com", 587 )
     server.starttls()           
     server.login(email_login, email_password)
-    print '=================================='
+    print '==================================\n'
     send(server, email_login,to_number,MESSAGE)
 
 def send(server, email_login,to_number,MESSAGE):
