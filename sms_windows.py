@@ -2,7 +2,7 @@
 
 import smtplib
 import time as t
-import colorama, Fore, init
+from colorama import  Fore, init
 
 init(convert=True)
 
